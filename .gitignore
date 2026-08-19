@@ -2,5 +2,8 @@
 node_modules/
 .vscode/
 .idea/
-.wix/
-jsconfig.json
+
+# build output
+dist/
+dist-ssr/
+*.local

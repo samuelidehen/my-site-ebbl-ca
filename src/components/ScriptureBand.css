@@ -1,0 +1,29 @@
+.scripture-band {
+  background: var(--color-oxblood);
+  padding: var(--space-section) 0;
+}
+
+.scripture-band blockquote {
+  margin: 0;
+  max-width: 46rem;
+  text-align: center;
+  margin-inline: auto;
+}
+
+.scripture-band p {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: clamp(1.3rem, 2.6vw, 1.9rem);
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+}
+
+.scripture-band cite {
+  display: block;
+  margin-top: 1.25rem;
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.55);
+}
